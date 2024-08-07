@@ -28,7 +28,7 @@ def analyze_sentiment():
         input_image = preprocess_image(image)
 
         # Load your pre-trained model
-        model = load_model(r'C:\Users\Prave\Downloads\enterprisesystemproject\weather_prediction_model.keras')
+        model = load_model('weather_prediction_model.keras')
 
         # Predict using the model
         prediction = model.predict(input_image)
